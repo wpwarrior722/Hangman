@@ -1,8 +1,10 @@
 import random
 import re
-player2_char=[]
-wrong=[]
+
+player2_char=[]      #input by player
+wrong=[]             #wrong input by player
 word=random.choice(["rush","history","contacts","Silicone","Painting","service"])
+print("You have 10 chances to guess the right word")
 
 for i in range(10):
     p2=input("Guess an alhpabet")
